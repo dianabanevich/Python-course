@@ -10,10 +10,10 @@ print(c)
 d = bytes ([104, 101, 108, 108, 111])
 print (d)
 
-e = list('hello')
+e = ['hello']
 print(e)
 
-f = tuple('world')
+f = tuple('world',)
 print(f)
 
 g = set('hello world')
@@ -22,11 +22,11 @@ print(g)
 h = frozenset('hello world!')
 print(h)
 
-i = dict[a, b, c]
-print(i)
+dict = { }
+dict['country'] = 'Belarus'
+print(dict)
 
-print('str:',a ,',', 'int:', b ,',', 'float:', c ,',', 'bytes:', d,',',
-      'list:', e ,',', 'turple:', f ,',', 'set:', g ,',', 'frozenset:', h ,',', 'dict:', i )
+print( a, type(a), b, type(b), c, type(c), d, type(d), e, type(e), f, type(f), g, type(g), h, type(h) )
 
 name = 'Diana'
 surname = 'Banevich'

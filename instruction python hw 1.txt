@@ -18,28 +18,28 @@ d = bytes ([104, 101, 108, 108, 111]) # переменная bytes
 
 5) Создать переменную типа List
 
-e = list('hello') # переменная list
+e = ['hello'] # переменная list
 
 6) Создать переменную типа Tuple
 
-f = turple('hello') # переменная turple
+f = turple('world',) # переменная turple
 
 7) Создать переменную типа Set
 
-g = set('hello') # переменная set
+g = set('hello world') # переменная set
 
 8. Создать переменную типа Frozen set
 
-h = frozenset('hello') # переменная frozenset
+h = frozenset('hello world') # переменная frozenset
 
 9) Создать переменную типа Dict
 
-i = dict[a, b, c, d, e, f, g, h] # переменная dict
+dict = { }
+dict['country'] = 'Belarus' # переменная dict
 
 10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
 
-print('str:' , a , 'int:' , b , 'float:' , c , 'bytes:' , d , 'list:' , e ,
-      'turple:', f , 'set:' , g , 'frozenset:' , h , 'dict:' , i )
+print( a, type(a), b, type(b), c, type(c), d, type(d), e, type(e), f, type(f), g, type(g), h, type(h) )
 
 11) Создать 2 переменные String, создать переменную в которой суммируете эти переменные. Вывести в консоль.
 
